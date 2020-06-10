@@ -4,7 +4,8 @@ import random
 
 # Create your views here.
 def home(request):
-    return render (request, 'pass_gen/home.html', {'password': 'aasdasdasd'})
+    #git test
+    return render(request, 'pass_gen/home.html', {'password': 'aasdasdasd'})
 
 
 def password(request):
